@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Botao from '../Botao'
 import CampoTexto from '../Campo'
 import ListaSuspensa from '../ListaSuspensa'
+import  {  v4  as  uuidv4  }  from  'uuid' ;
 import './formulario.css'
 
 const Formulario = ({aoCadastrar, times , cadastrarTime}) => {
@@ -15,8 +16,10 @@ const Formulario = ({aoCadastrar, times , cadastrarTime}) => {
 
     const aoSubmeter = (evento) => {
         evento.preventDefault()
-        console.log('form enviado', nome, cargo, imagem, time )
+        const id = uuidv4();
+        console.log('form enviado',id, nome, cargo, imagem, time )
         aoCadastrar({
+            id,
             nome,
             cargo,
             imagem,
