@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Criar-Equipe
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esta é uma aplicação feita com reactJs, ela realiza a criação de equipes e membros permitindo cadastrar, excluir e favoritar membros, além de possuir a funcionalidade de alterar a cor da equipe após sua criação.
 
-## Available Scripts
+## Pré-requisitos
 
-In the project directory, you can run:
+Antes de começar, certifique-se de ter instalado todas as seguintes dependências:
 
-### `npm start`
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Instalação
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone o repositório:
 
-### `npm test`
+   ```bash
+   git clone https://github.com/seu-usuario/seu-projeto.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Navegue até o diretório do projeto:
 
-### `npm run build`
+   ```bash
+   cd seu-projeto
+3. Instale as dependências:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   npm install
+## Uso
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Inicie o servidor de desenvolvimento:
+    ```bash
+    npm start
+2. Abra o aplicativo em seu navegador em http://localhost:3000.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Comece a criar e gerenciar seus times e membros da equipe.
 
-### `npm run eject`
+## Funcionalidades
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+O seu Cria-Equipes possui as seguintes funcionalidades:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Criar Times: Os usuários podem criar times de acordo com sua preferência.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Adicionar Membros: É possível adicionar membros à equipe dentro de cada time.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Favoritar Membro: Os usuários podem marcar um membro da equipe como favorito.
 
-## Learn More
+4. Excluir Membro: É possível excluir membros da equipe quando necessário.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+5. Mudar Cor do Time: Os usuários podem personalizar a cor de cada time.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+##Tecnologias Utilizadas
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* ReactJS
