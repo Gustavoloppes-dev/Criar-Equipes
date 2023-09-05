@@ -49,8 +49,5 @@ O seu Cria-Equipes possui as seguintes funcionalidades:
 
 ##Tecnologias Utilizadas
 
-<<<<<<< HEAD
 * ReactJS
-=======
-* ReactJS
->>>>>>> a1da17b6b0b5a248309499ba40ec68d57108b3fc
+
